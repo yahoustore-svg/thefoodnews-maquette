@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Food News · Food truck vintage et traiteur événementiel</title>
+<meta name="description" content="The Food News : food truck Citroën HY, traiteur événementiel et location de food truck pour festivals, salons, lancements de marque, séminaires et tournages. Paris 2024, Lollapalooza, Rock en Seine, Solidays.">
+<meta property="og:title" content="The Food News · Food truck vintage et traiteur événementiel">
+<meta property="og:description" content="Festivals, salons, marques, tournages : on installe, on cuisine, on sert, on démonte.">
+<meta property="og:image" content="assets/hy-nuit.jpg">
+<meta name="theme-color" content="#2C3E34">
+<link rel="icon" href="assets/logo-tfn-noir-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;0,6..72,800;1,6..72,400;1,6..72,500&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FoodEstablishment",
+  "name": "The Food News",
+  "url": "https://thefoodnews.fr/",
+  "telephone": "+33679922789",
+  "email": "mathieu@thefoodnews.fr",
+  "servesCuisine": ["Street food", "Traiteur"],
+  "description": "Food truck Citroën HY, traiteur événementiel et location de food truck pour festivals, salons et événements de marque.",
+  "founder": [{"@type": "Person", "name": "Mathieu Maurin"}, {"@type": "Person", "name": "Yannick Bokini"}],
+  "sameAs": ["https://www.instagram.com/thefoodnews.fr/"]
+}
+</script>
+<style>
+:root{
+  --green:#3E5649;      /* fond du site actuel */
+  --green-deep:#2C3E34;
+  --sage:#86A58F;       /* bandeau de navigation actuel */
+  --paper:#F4F2E7;      /* crème du site actuel */
+  --paper-2:#EAE7D8;
+  --ink:#1D2822;
+  --ink-soft:#4C5A51;
+  --copper:#B06A35;     /* « noir mat & cuivre » du HY */
+  --rule:#1D2822;
+  --serif:"Newsreader", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --sans:"Archivo", "Helvetica Neue", "Segoe UI", sans-serif;
+  --wrap:1240px;
+  --gut:clamp(16px,4vw,40px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+img,video{display:block;max-width:100%}
+a{color:inherit}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:var(--gut)}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:16px;background:#fff;padding:8px 12px;z-index:99}
+:focus-visible{outline:2px solid var(--copper);outline-offset:3px}
+
+/* ---------- Bandeau de tête (manchette) ---------- */
+.topbar{background:var(--green-deep);color:#DCE3D9;font:500 13px/1 var(--sans)}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;padding-block:10px;flex-wrap:wrap}
+.topbar a{text-decoration:none}
+.topbar a:hover{color:#fff}
+.topbar .tb-right{display:flex;gap:22px}
+
+header.mast{border-bottom:1px solid var(--rule)}
+.mast-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px;padding-block:22px 18px}
+.mast-row .mono{width:46px;height:auto}
+.mast-title{font:800 clamp(34px,6.2vw,82px)/.9 var(--serif);letter-spacing:-.02em;margin:0;text-align:center;white-space:nowrap}
+.mast-title a{text-decoration:none}
+.mast-cta{justify-self:end}
+.dateline{display:flex;justify-content:space-between;gap:16px;border-top:3px double var(--rule);padding-block:9px;font:500 13px/1.3 var(--sans);color:var(--ink-soft);flex-wrap:wrap}
+.dateline nav{display:flex;gap:26px;flex-wrap:wrap}
+.dateline nav a{text-decoration:none;color:var(--ink);font-weight:600}
+.dateline nav a:hover{color:var(--copper)}
+
+.btn{display:inline-flex;align-items:center;gap:10px;font:600 15px/1 var(--sans);text-decoration:none;padding:15px 22px;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper);cursor:pointer;transition:background .2s,color .2s}
+.btn:hover{background:var(--copper);border-color:var(--copper)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn .arr{transition:transform .2s}.btn:hover .arr{transform:translateX(3px)}
+
+/* ---------- À la une ---------- */
+.une{display:grid;grid-template-columns:5fr 7fr;grid-template-areas:"text media" "facts media";grid-template-rows:auto 1fr;gap:0;border-bottom:1px solid var(--rule)}
+.une-text{grid-area:text;padding:44px 40px 0 0;display:flex;flex-direction:column}
+.une-facts{grid-area:facts;align-self:end;margin:40px 40px 32px 0 !important}
+.une-media{grid-area:media;border-left:1px solid var(--rule)}
+.breves{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:22px;border-top:1px solid var(--rule)}
+.breves a{display:grid;grid-template-columns:96px 1fr;gap:14px;padding:16px 18px 0 0;text-decoration:none;align-items:start}
+.breves a+a{padding-left:18px;border-left:1px solid var(--rule)}
+.breves img{width:96px;height:96px;object-fit:cover}
+.breves span{font:400 15px/1.4 var(--serif);color:var(--ink-soft)}
+.breves b{display:block;font:700 18px/1.15 var(--serif);color:var(--ink);margin-bottom:4px}
+.breves a:hover b{color:var(--copper)}
+.kicker{font:600 13px/1 var(--sans);color:var(--copper);margin:0 0 18px}
+.une h1{font:700 clamp(38px,4.4vw,60px)/1.02 var(--serif);letter-spacing:-.02em;margin:0 0 22px}
+.une h1 em{font-style:italic;font-weight:500}
+.lede{font:400 20px/1.5 var(--serif);color:var(--ink-soft);margin:0 0 30px;max-width:34em}
+.une .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:auto}
+.une-facts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:40px;border-top:1px solid var(--rule)}
+.une-facts div{padding:16px 14px 0 0}
+.une-facts div+div{padding-left:14px;border-left:1px solid var(--rule)}
+.une-facts b{display:block;font:700 20px/1.1 var(--serif);margin-bottom:4px}
+.une-facts span{font-size:13.5px;color:var(--ink-soft);line-height:1.35;display:block}
+.une-media{padding:28px 0 28px 40px;display:flex;flex-direction:column}
+.une-media figure{margin:0;display:flex;flex-direction:column}
+.une-media .frame{position:relative;aspect-ratio:16/9;background:#111;overflow:hidden}
+.une-media video,.une-media .frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.une-media figcaption{display:flex;justify-content:space-between;gap:12px;font:400 14px/1.4 var(--serif);font-style:italic;color:var(--ink-soft);padding-top:10px}
+.vctl{position:absolute;right:12px;bottom:12px;background:rgba(20,28,24,.7);color:#fff;border:0;font:600 12px/1 var(--sans);padding:9px 12px;cursor:pointer}
+
+/* ---------- Téléscripteur références ---------- */
+.ticker{background:var(--green);color:var(--paper);overflow:hidden;border-bottom:1px solid var(--rule)}
+.ticker .wrap{display:flex;align-items:center;gap:0;padding-block:0}
+.ticker .label{flex:none;font:700 12.5px/1 var(--sans);background:var(--copper);color:#fff;padding:15px 16px;}
+.ticker .viewport{overflow:hidden;flex:1;mask-image:linear-gradient(90deg,transparent,#000 30px,#000 calc(100% - 30px),transparent)}
+.ticker .track{display:flex;width:max-content;animation:tick 42s linear infinite}
+.ticker .track span{font:500 18px/1 var(--serif);padding:13px 0;white-space:nowrap}
+.ticker .track span::after{content:"●";font-size:7px;vertical-align:middle;margin:0 22px;color:var(--sage)}
+.ticker:hover .track{animation-play-state:paused}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* ---------- Titres de rubrique ---------- */
+section{scroll-margin-top:20px}
+.rub{display:flex;align-items:baseline;justify-content:space-between;gap:20px;border-bottom:3px double var(--rule);padding-bottom:12px;margin-bottom:36px;flex-wrap:wrap}
+.rub h2{font:700 clamp(30px,3.6vw,46px)/1 var(--serif);letter-spacing:-.015em;margin:0}
+.rub p{margin:0;font:400 16px/1.45 var(--serif);font-style:italic;color:var(--ink-soft);max-width:30em}
+.pad{padding-block:clamp(56px,8vw,96px)}
+
+/* ---------- Formules ---------- */
+.offres{display:grid;grid-template-columns:1.25fr 1fr 1fr;border-top:1px solid var(--rule)}
+.offre{padding:26px 26px 30px;border-left:1px solid var(--rule);display:flex;flex-direction:column}
+.offre:first-child{border-left:0;padding-left:0}
+.offre:last-child{padding-right:0}
+.offre .num{font:500 14px/1 var(--sans);color:var(--copper);margin-bottom:14px}
+.offre h3{font:700 30px/1.08 var(--serif);margin:0 0 12px;letter-spacing:-.01em}
+.offre:first-child h3{font-size:38px}
+.offre .ph{aspect-ratio:4/3;overflow:hidden;margin-bottom:18px;background:var(--paper-2)}
+.offre:first-child .ph{aspect-ratio:5/4}
+.offre .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.offre:hover .ph img{transform:scale(1.03)}
+.offre p{margin:0 0 16px;color:var(--ink-soft)}
+.offre ul{list-style:none;margin:0 0 22px;padding:0;font-size:15px}
+.offre li{padding:7px 0;border-top:1px dotted #9AA59D}
+.offre li:last-child{border-bottom:1px dotted #9AA59D}
+.offre .more{margin-top:auto;font:600 15px/1 var(--sans);text-decoration:none;border-bottom:1.5px solid var(--copper);align-self:flex-start;padding-bottom:4px}
+.offre .more:hover{color:var(--copper)}
+
+/* ---------- Pour quels événements ---------- */
+.formats{background:var(--paper-2);border-block:1px solid var(--rule)}
+.formats .wrap{display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:center;padding-block:30px}
+.formats h3{font:700 22px/1.1 var(--serif);margin:0;max-width:9em}
+.formats ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:0}
+.formats li{font:500 italic 22px/1 var(--serif);padding:8px 0}
+.formats li+li::before{content:"/";color:var(--copper);margin:0 16px;font-style:normal}
+
+/* ---------- Carnet de références ---------- */
+.refs{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--rule);border-left:1px solid var(--rule)}
+.ref{border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:22px 18px 16px;display:flex;flex-direction:column;gap:14px;background:var(--paper)}
+.ref .lg{height:96px;display:flex;align-items:center;justify-content:center}
+.ref .lg img{max-height:96px;max-width:100%;object-fit:contain}
+.ref b{font:700 17px/1.15 var(--serif)}
+.ref span{font-size:13px;color:var(--ink-soft);display:block;margin-top:2px}
+.refs-note{font:italic 400 15px/1.5 var(--serif);color:var(--ink-soft);margin:16px 0 0}
+
+/* ---------- En images ---------- */
+.dark{background:var(--green-deep);color:var(--paper)}
+.dark .rub{border-color:var(--paper)}
+.dark .rub p{color:#BFCBC1}
+.gal{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:clamp(90px,9vw,128px);gap:10px}
+.gal figure{margin:0;position:relative;overflow:hidden;background:#1a241e}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .7s}
+.gal figure:hover img{transform:scale(1.035)}
+.gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 11px;font:italic 400 14.5px/1.3 var(--serif);color:#fff;background:linear-gradient(transparent,rgba(10,14,12,.72))}
+.g1{grid-column:span 7;grid-row:span 4}.g2{grid-column:span 5;grid-row:span 2}.g3{grid-column:span 5;grid-row:span 2}
+.g4{grid-column:span 4;grid-row:span 3}.g5{grid-column:span 4;grid-row:span 3}.g6{grid-column:span 4;grid-row:span 3}
+.g7{grid-column:span 5;grid-row:span 3}.g8{grid-column:span 3;grid-row:span 3}.g9{grid-column:span 4;grid-row:span 3}
+.credit{margin:18px 0 0;font-size:13px;color:#A9B7AC}
+.credit a{color:#DCE3D9}
+
+/* ---------- Déroulé ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);counter-reset:s;border-top:1px solid var(--rule)}
+.step{padding:22px 22px 0 0}
+.step+.step{padding-left:22px;border-left:1px solid var(--rule)}
+.step::before{counter-increment:s;content:counter(s,decimal-leading-zero);display:block;font:800 52px/1 var(--serif);color:var(--copper);margin-bottom:14px}
+.step h3{font:700 22px/1.15 var(--serif);margin:0 0 8px}
+.step p{margin:0;color:var(--ink-soft);font-size:15.5px}
+
+/* ---------- Engagements ---------- */
+.eng{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule)}
+.eng article{padding:24px 26px 6px 0}
+.eng article+article{padding-left:26px;border-left:1px solid var(--rule)}
+.eng .ph{aspect-ratio:16/10;overflow:hidden;margin-bottom:18px}
+.eng .ph img{width:100%;height:100%;object-fit:cover}
+.eng h3{font:700 24px/1.1 var(--serif);margin:0 0 10px}
+.eng p{margin:0;color:var(--ink-soft);font-size:15.5px}
+
+/* ---------- La maison ---------- */
+.maison{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:0;border-top:1px solid var(--rule)}
+.maison .edito{padding:24px 34px 0 0}
+.maison .edito blockquote{margin:0 0 20px;font:500 italic clamp(24px,2.4vw,31px)/1.25 var(--serif)}
+.maison .edito p{color:var(--ink-soft);margin:0 0 14px}
+.person{padding:24px 0 0 28px;border-left:1px solid var(--rule)}
+.person + .person{padding-right:0}
+.person .ph{aspect-ratio:4/5;overflow:hidden;background:#E8DCC4;margin-bottom:16px}
+.person .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;filter:saturate(.85)}
+.person b{font:700 24px/1.1 var(--serif);display:block}
+.person .role{font:600 13px/1 var(--sans);color:var(--copper);display:block;margin:6px 0 10px}
+.person p{margin:0;color:var(--ink-soft);font-size:15.5px}
+
+/* ---------- Devis ---------- */
+.devis{background:var(--green);color:var(--paper)}
+.devis .rub{border-color:var(--paper)}
+.devis .rub p{color:#D3DDD5}
+.devis-grid{display:grid;grid-template-columns:1fr 1.5fr;gap:56px}
+.direct a{display:block;text-decoration:none;border-top:1px solid rgba(244,242,231,.35);padding:18px 0}
+.direct a:last-child{border-bottom:1px solid rgba(244,242,231,.35)}
+.direct small{display:block;font:600 12.5px/1 var(--sans);color:var(--sage);margin-bottom:8px}
+.direct span{font:600 clamp(22px,2.3vw,28px)/1.1 var(--serif)}
+.direct a:hover span{color:#F0C9A6}
+.direct .note{font:italic 400 15px/1.5 var(--serif);color:#D3DDD5;margin:22px 0 0}
+form{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px}
+fieldset{border:0;margin:0;padding:0;grid-column:1/-1}
+legend{font:600 13px/1 var(--sans);margin-bottom:10px;color:var(--sage)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips label{cursor:pointer}
+.chips input{position:absolute;opacity:0;pointer-events:none}
+.chips span{display:inline-block;padding:10px 14px;border:1px solid rgba(244,242,231,.45);font:500 14.5px/1 var(--sans);transition:background .15s,color .15s}
+.chips input:checked+span{background:var(--paper);color:var(--green-deep);border-color:var(--paper)}
+.chips input:focus-visible+span{outline:2px solid #F0C9A6;outline-offset:2px}
+.f label.t{display:block;font:600 13px/1 var(--sans);margin-bottom:8px;color:var(--sage)}
+.f input,.f textarea{width:100%;background:transparent;border:0;border-bottom:1px solid rgba(244,242,231,.55);color:var(--paper);font:400 18px/1.3 var(--serif);padding:8px 0 10px;border-radius:0}
+.f input::placeholder,.f textarea::placeholder{color:rgba(244,242,231,.45)}
+.f input:focus,.f textarea:focus{outline:0;border-bottom-color:#F0C9A6}
+.f input[type=date]{color-scheme:dark}
+.f.full{grid-column:1/-1}
+.f textarea{min-height:90px;resize:vertical}
+.send{grid-column:1/-1;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.send .btn{background:var(--paper);color:var(--green-deep);border-color:var(--paper)}
+.send .btn:hover{background:var(--copper);color:#fff;border-color:var(--copper)}
+.send small{color:#C7D2C9;font-size:13.5px}
+
+/* ---------- Pied ---------- */
+footer{background:var(--green-deep);color:#C7D2C9;font-size:14px}
+footer .wrap{padding-block:40px 30px}
+.foot-top{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;border-bottom:1px solid rgba(244,242,231,.25);padding-bottom:24px;flex-wrap:wrap}
+.foot-top .name{font:800 clamp(40px,7vw,92px)/.85 var(--serif);color:var(--paper);letter-spacing:-.02em}
+.foot-top img{width:54px}
+.foot-bot{display:flex;justify-content:space-between;gap:16px;padding-top:18px;flex-wrap:wrap}
+.foot-bot a{text-decoration:none}.foot-bot a:hover{color:#fff}
+.foot-bot nav{display:flex;gap:20px;flex-wrap:wrap}
+
+/* ---------- Barre mobile ---------- */
+.mbar{display:none}
+
+/* ---------- Apparition ---------- */
+.rv{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+.rv.in{opacity:1;transform:none}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1020px){
+  .une{grid-template-columns:1fr;grid-template-areas:"text" "media" "facts";grid-template-rows:auto}
+  .une-text{padding:32px 0 28px}
+  .une-media{padding:0 0 8px;border-left:0}
+  .une-facts{margin:16px 0 28px !important}
+  .offres{grid-template-columns:1fr 1fr}
+  .offre:first-child{grid-column:1/-1;border-bottom:1px solid var(--rule);padding-right:0}
+  .offre:nth-child(2){border-left:0;padding-left:0}
+  .refs{grid-template-columns:repeat(3,1fr)}
+  .steps{grid-template-columns:1fr 1fr;row-gap:30px}
+  .step:nth-child(3){border-left:0;padding-left:0}
+  .maison{grid-template-columns:1fr 1fr}
+  .maison .edito{grid-column:1/-1;padding-right:0;padding-bottom:28px}
+  .maison .person:nth-child(2){border-left:0;padding-left:0}
+  .devis-grid{grid-template-columns:1fr;gap:40px}
+  .formats .wrap{grid-template-columns:1fr;gap:12px}
+}
+@media (max-width:700px){
+  body{font-size:16px;padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+  .topbar .tb-left{display:none}
+  .topbar .wrap{justify-content:center}
+  .mast-row{grid-template-columns:auto 1fr;padding-block:14px 12px}
+  .mast-row .mono{width:34px}
+  .mast-title{text-align:left;font-size:clamp(30px,9vw,44px)}
+  .mast-cta{display:none}
+  .dateline .ed{display:none}
+  .dateline nav{gap:16px;overflow-x:auto;flex-wrap:nowrap;width:100%;scrollbar-width:none}
+  .dateline nav a{white-space:nowrap}
+  .lede{font-size:18px}
+  .une-facts{grid-template-columns:1fr}
+  .une-facts div,.une-facts div+div{padding:12px 0;border-left:0;border-bottom:1px solid var(--rule)}
+  .une-media figcaption{flex-direction:column;gap:2px}
+  .breves{grid-template-columns:1fr}
+  .breves a,.breves a+a{padding:14px 0;border-left:0;border-bottom:1px solid var(--rule);grid-template-columns:80px 1fr}
+  .breves img{width:80px;height:80px}
+  .offres{grid-template-columns:1fr}
+  .offre,.offre:nth-child(2){border-left:0;padding:26px 0 30px;border-bottom:1px solid var(--rule)}
+  .offre:first-child h3{font-size:32px}
+  .formats li{font-size:19px}
+  .refs{grid-template-columns:1fr 1fr}
+  .ref .lg{height:76px}.ref .lg img{max-height:76px}
+  .gal{grid-template-columns:1fr 1fr;grid-auto-rows:150px}
+  .gal figure{grid-column:span 1 !important;grid-row:span 1 !important}
+  .gal .g1,.gal .g7{grid-column:span 2 !important;grid-row:span 2 !important}
+  .steps{grid-template-columns:1fr}
+  .step,.step+.step{padding:20px 0;border-left:0;border-bottom:1px solid var(--rule)}
+  .eng{grid-template-columns:1fr}
+  .eng article,.eng article+article{padding:22px 0;border-left:0;border-bottom:1px solid var(--rule)}
+  .maison{grid-template-columns:1fr}
+  .person,.maison .person:nth-child(2){border-left:0;padding:24px 0;border-bottom:1px solid var(--rule)}
+  .person .ph{aspect-ratio:1/1}
+  form{grid-template-columns:1fr}
+  .mbar{display:grid;grid-template-columns:1fr 1.4fr;position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--green-deep);padding:8px 10px calc(8px + env(safe-area-inset-bottom,0px));gap:8px;border-top:1px solid rgba(244,242,231,.2)}
+  .mbar a{display:flex;align-items:center;justify-content:center;gap:8px;height:46px;text-decoration:none;font:600 15px/1 var(--sans);color:var(--paper);border:1px solid rgba(244,242,231,.5)}
+  .mbar a.p{background:var(--copper);border-color:var(--copper);color:#fff}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important;scroll-behavior:auto !important}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="tb-left">Festivals · Salons · Lancements de marque · Séminaires · Tournages · Événements privés</span>
+    <span class="tb-right"><a href="tel:+33679922789">06 79 92 27 89</a><a href="mailto:mathieu@thefoodnews.fr">mathieu@thefoodnews.fr</a><a href="https://www.instagram.com/thefoodnews.fr/" target="_blank" rel="noopener">Instagram</a></span>
+  </div>
+</div>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <a href="#" aria-label="Accueil"><img class="mono" src="assets/logo-tfn-noir.png" alt="Monogramme The Food News"></a>
+      <p class="mast-title"><a href="#">The Food News</a></p>
+      <a class="btn mast-cta" href="#devis">Demander un devis <span class="arr">→</span></a>
+    </div>
+    <div class="dateline">
+      <span class="ed">Traiteur événementiel &amp; food truck vintage</span>
+      <nav aria-label="Navigation principale">
+        <a href="#formules">Nos formules</a>
+        <a href="#references">Références</a>
+        <a href="#images">En images</a>
+        <a href="#maison">La maison</a>
+        <a href="#devis">Contact</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="contenu">
+  <!-- À LA UNE -->
+  <div class="wrap">
+    <section class="une" aria-labelledby="h-une">
+      <div class="une-text">
+        <p class="kicker">À la une</p>
+        <h1 id="h-une">Le food truck et le traiteur de vos <em>festivals et événements</em>.</h1>
+        <p class="lede">Notre Citroën HY noir mat et cuivre, nos stands street food et nos buffets : on installe, on cuisine, on sert vos invités, puis on démonte.</p>
+        <div class="ctas">
+          <a class="btn" href="#devis">Demander un devis <span class="arr">→</span></a>
+          <a class="btn ghost" href="#images">Voir nos événements</a>
+        </div>
+      </div>
+      <div class="une-facts">
+          <div><b>Food truck HY</b><span>Barnum et service sur place</span></div>
+          <div><b>Traiteur</b><span>Petit-déjeuner, buffet, cocktail dînatoire</span></div>
+          <div><b>Location</b><span>Le camion seul, posé et déposé</span></div>
+      </div>
+      <div class="une-media">
+        <figure>
+          <div class="frame">
+            <video id="hy" autoplay muted loop playsinline preload="metadata" poster="assets/hy-nuit.jpg" aria-label="Le food truck Citroën HY de The Food News, néon flamant rose, caisses en bois et fleurs">
+              <source src="assets/hy-nuit.mp4" type="video/mp4">
+            </video>
+            <button class="vctl" id="vctl" type="button" aria-pressed="false">Pause</button>
+          </div>
+          <figcaption><span>Notre Citroën HY, noir mat et cuivre, monté en stand.</span><span>Vidéo The Food News</span></figcaption>
+        </figure>
+        <div class="breves">
+          <a href="#images"><img src="assets/pita-foule.jpg" alt="File de festivaliers devant le stand Pita Gyros"><span><b>En festival</b>Nos stands street food tiennent le rythme des grandes jauges.</span></a>
+          <a href="#formules"><img src="assets/hotdog-moutarde.jpg" alt="Hot dogs garnis à la moutarde"><span><b>Servi minute</b>Hot dog, pita gyros, burgers : cuisinés devant vos invités.</span></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- TÉLÉSCRIPTEUR -->
+  <div class="ticker" aria-label="Ils nous ont fait confiance">
+    <div class="wrap">
+      <span class="label">Ils nous ont fait confiance</span>
+      <div class="viewport">
+        <div class="track">
+          <span>Paris 2024</span><span>Lollapalooza Paris</span><span>Rock en Seine</span><span>Solidays</span><span>Main Square Festival</span><span>24 Heures du Mans</span><span>Salon du Bourget</span><span>Hilti</span><span>Lynk &amp; Co</span><span>Madame Loyal</span>
+          <span aria-hidden="true">Paris 2024</span><span aria-hidden="true">Lollapalooza Paris</span><span aria-hidden="true">Rock en Seine</span><span aria-hidden="true">Solidays</span><span aria-hidden="true">Main Square Festival</span><span aria-hidden="true">24 Heures du Mans</span><span aria-hidden="true">Salon du Bourget</span><span aria-hidden="true">Hilti</span><span aria-hidden="true">Lynk &amp; Co</span><span aria-hidden="true">Madame Loyal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FORMULES -->
+  <section id="formules" class="pad" aria-labelledby="h-form">
+    <div class="wrap">
+      <div class="rub rv">
+        <h2 id="h-form">Nos trois formules</h2>
+        <p>Notre savoir-faire s'adapte au format. Notre exigence reste la même.</p>
+      </div>
+      <div class="offres">
+        <article class="offre rv">
+          <span class="num">01 · Notre format phare</span>
+          <div class="ph"><img src="assets/stand-salon.jpg" alt="Le Citroën HY installé en stand, caisses en bois, tonneau et néon" loading="lazy"></div>
+          <h3>Barnum &amp; food truck vintage</h3>
+          <p>Une expérience culinaire autant que visuelle : vos invités viennent au camion, voient cuisiner, repartent avec leur assiette et une photo.</p>
+          <ul>
+            <li>Citroën HY noir mat et cuivre, ou barnum street food</li>
+            <li>Hot dog, pita gyros, burgers, cocktails : la carte se compose avec vous</li>
+            <li>Équipe en service sur place, du premier au dernier invité</li>
+          </ul>
+          <a class="more" href="#devis" data-svc="Food truck vintage">Réserver le food truck</a>
+        </article>
+        <article class="offre rv">
+          <span class="num">02</span>
+          <div class="ph"><img src="assets/buffet.jpg" alt="Buffet traiteur de légumes et fromages frais" loading="lazy"></div>
+          <h3>Traiteur événementiel</h3>
+          <p>Des produits frais et de saison, en circuit court, servis au format de votre journée.</p>
+          <ul>
+            <li>Petit-déjeuner et déjeuner</li>
+            <li>Buffet et cocktail dînatoire</li>
+            <li>Livraison sur votre lieu</li>
+          </ul>
+          <a class="more" href="#devis" data-svc="Traiteur événementiel">Composer un menu</a>
+        </article>
+        <article class="offre rv">
+          <span class="num">03</span>
+          <div class="ph"><img src="assets/hy-neon.jpg" alt="Le food truck HY de nuit avec son néon flamant rose" loading="lazy" style="object-position:50% 35%"></div>
+          <h3>Location de food truck</h3>
+          <p>Vous avez déjà votre concept ? Nous vous louons le camion seul, avec pose et dépose.</p>
+          <ul>
+            <li>Location sèche du Citroën HY</li>
+            <li>Livré, installé, récupéré par nos soins</li>
+            <li>Idéal pour un tournage ou un stand de marque</li>
+          </ul>
+          <a class="more" href="#devis" data-svc="Location de food truck">Demander la location</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="formats">
+    <div class="wrap">
+      <h3>Pour quels événements ?</h3>
+      <ul>
+        <li>Festivals</li><li>Salons</li><li>Lancements de marque</li><li>Séminaires</li><li>Tournages</li><li>Événements culturels</li><li>Événements privés</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- RÉFÉRENCES -->
+  <section id="references" class="pad" aria-labelledby="h-ref">
+    <div class="wrap">
+      <div class="rub rv">
+        <h2 id="h-ref">Le carnet de références</h2>
+        <p>Des festivals de plusieurs dizaines de milliers de personnes aux stands de marque : ils nous ont fait confiance.</p>
+      </div>
+      <div class="refs rv">
+        <div class="ref"><div class="lg"><img src="assets/logo-paris-2024.png" alt="Paris 2024" loading="lazy"></div><div><b>Paris 2024</b><span>Jeux Olympiques</span></div></div>
+        <div class="ref"><div class="lg"><img src="assets/logo-lollapalooza.jpg" alt="Lollapalooza Paris" loading="lazy"></div><div><b>Lollapalooza Paris</b><span>Festival</span></div></div>
+        <div class="ref"><div class="lg"><img src="assets/logo-rock-en-seine.jpg" alt="Rock en Seine" loading="lazy"></div><div><b>Rock en Seine</b><span>Festival</span></div></div>
+        <div class="ref"><div class="lg"><img src="assets/logo-solidays.png" alt="Solidays" loading="lazy"></div><div><b>Solidays</b><span>Festival</span></div></div>
+        <div class="ref"><div class="lg"><img src="assets/logo-main-square.jpg" alt="Main Square Festival" loading="lazy"></div><div><b>Main Square</b><span>Festival</span></div></div>
+        <div class="ref"><div class="lg"><img src="assets/logo-24h-le-mans.png" alt="24 Heures du Mans" loading="lazy"></div><div><b>24 Heures du Mans</b><span>Sport automobile</span></div></div>
+        <div class="ref"><div class="lg"><img src="assets/logo-bourget.jpg" alt="Salon international de l'aéronautique et de l'espace, Paris Le Bourget" loading="lazy"></div><div><b>Salon du Bourget</b><span>Salon professionnel</span></div></div>
+        <div class="ref"><div class="lg"><img src="assets/logo-hilti.jpg" alt="Hilti" loading="lazy"></div><div><b>Hilti</b><span>Événement de marque</span></div></div>
+        <div class="ref"><div class="lg"><img src="assets/logo-lynkco.png" alt="Lynk &amp; Co" loading="lazy"></div><div><b>Lynk &amp; Co</b><span>Événement de marque</span></div></div>
+        <div class="ref"><div class="lg"><img src="assets/logo-madame-loyal.jpg" alt="Madame Loyal" loading="lazy"></div><div><b>Madame Loyal</b><span>Événementiel</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EN IMAGES -->
+  <section id="images" class="pad dark" aria-labelledby="h-img">
+    <div class="wrap">
+      <div class="rub rv">
+        <h2 id="h-img">En images</h2>
+        <p>Ce que vivent vos invités, du premier service à la file d'attente du soir.</p>
+      </div>
+      <div class="gal">
+        <figure class="g1 rv"><img src="assets/french-burger.jpg" alt="Foule devant le stand French Burger en festival" loading="lazy"><figcaption>Stand French Burger, en festival</figcaption></figure>
+        <figure class="g2 rv"><img src="assets/hotdog-moutarde.jpg" alt="Hot dogs garnis de moutarde en barquettes" loading="lazy"><figcaption>Hot dogs dressés au passe</figcaption></figure>
+        <figure class="g3 rv"><img src="assets/stand-salon-2.jpg" alt="Le HY et son décor de caisses en bois" loading="lazy"><figcaption>Le HY monté en stand</figcaption></figure>
+        <figure class="g4 rv"><img src="assets/pita-gyros.jpg" alt="File de clients devant le stand Pita Gyros" loading="lazy"><figcaption>Stand Pita Gyros</figcaption></figure>
+        <figure class="g5 rv"><img src="assets/wrap.jpg" alt="Pita gyros servie par un gant noir" loading="lazy"><figcaption>Pita gyros, servie minute</figcaption></figure>
+        <figure class="g6 rv"><img src="assets/cocktail.jpg" alt="Cocktail à la menthe" loading="lazy"><figcaption>Cocktails maison</figcaption></figure>
+        <figure class="g7 rv"><img src="assets/festival-grande-roue.jpg" alt="Allée de festival avec grande roue et stands" loading="lazy"><figcaption>Allée des food trucks, en festival</figcaption></figure>
+        <figure class="g8 rv"><img src="assets/hotdog.jpg" alt="Hot dog en barquette carton" loading="lazy"><figcaption>Le hot dog</figcaption></figure>
+        <figure class="g9 rv"><img src="assets/festival-hotdog.jpg" alt="Clients devant le stand Hot Dog" loading="lazy"><figcaption>Stand Hot Dog</figcaption></figure>
+      </div>
+      <p class="credit">Photos de festival : <a href="https://www.instagram.com/iamdlvrhugo/" target="_blank" rel="noopener">@iamdlvrhugo</a>. Suivez nos prochains événements sur <a href="https://www.instagram.com/thefoodnews.fr/" target="_blank" rel="noopener">@thefoodnews.fr</a>.</p>
+    </div>
+  </section>
+
+  <!-- DÉROULÉ -->
+  <section class="pad" aria-labelledby="h-steps">
+    <div class="wrap">
+      <div class="rub rv">
+        <h2 id="h-steps">Comment ça se passe</h2>
+        <p>Vous profitez de votre événement, on s'occupe du reste.</p>
+      </div>
+      <div class="steps rv">
+        <div class="step"><h3>Votre brief</h3><p>Date, lieu, nombre d'invités, ambiance : quelques lignes suffisent pour démarrer.</p></div>
+        <div class="step"><h3>Notre proposition</h3><p>Formule, carte et devis construits pour votre format, quelle que soit son envergure.</p></div>
+        <div class="step"><h3>Le jour J</h3><p>Installation, cuisine et service sur place par notre équipe, food truck ou buffet.</p></div>
+        <div class="step"><h3>Après le dernier service</h3><p>Démontage et nettoyage : on repart en laissant le lieu comme on l'a trouvé.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENGAGEMENTS -->
+  <section class="pad" style="padding-top:0" aria-labelledby="h-eng">
+    <div class="wrap">
+      <div class="rub rv">
+        <h2 id="h-eng">Nos engagements</h2>
+        <p>Ce qui ne change pas, quel que soit l'événement.</p>
+      </div>
+      <div class="eng">
+        <article class="rv"><div class="ph"><img src="assets/fraicheur.jpg" alt="Oranges et fraises fraîches" loading="lazy"></div><h3>Qualité et fraîcheur</h3><p>Des produits frais et de saison. En favorisant le circuit court, nous nous approvisionnons localement.</p></article>
+        <article class="rv"><div class="ph"><img src="assets/service-boites.jpg" alt="Service de barquettes au comptoir du food truck" loading="lazy"></div><h3>Écologie</h3><p>Au maximum, des contenants biodégradables, compostables ou réutilisables, pour une expérience éco-responsable.</p></article>
+        <article class="rv"><div class="ph"><img src="assets/hygiene.jpg" alt="Mains gantées" loading="lazy"></div><h3>Hygiène alimentaire</h3><p>Nous sommes accompagnés par AVEC expertise, spécialiste de l'audit HACCP, pour une traçabilité complète de nos préparations.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LA MAISON -->
+  <section id="maison" class="pad" style="padding-top:0" aria-labelledby="h-maison">
+    <div class="wrap">
+      <div class="rub rv">
+        <h2 id="h-maison">La maison</h2>
+        <p>Deux associés, un camion, une même exigence.</p>
+      </div>
+      <div class="maison">
+        <div class="edito rv">
+          <blockquote>« Faire de chaque bouchée un moment fort de votre événement. »</blockquote>
+          <p>Notre mission : mettre notre savoir-faire culinaire, notre sens du détail et de la mise en scène au service d'un moment hors du temps, pour vous et vos invités.</p>
+          <p>Notre vision : vous mettre dans les meilleures conditions pour profiter pleinement de l'expérience, en alliant exigence, créativité et réactivité, quels que soient le format ou l'envergure du projet.</p>
+        </div>
+        <div class="person rv">
+          <div class="ph"><img src="assets/mathieu.jpg" alt="Mathieu Maurin, fondateur" loading="lazy"></div>
+          <b>Mathieu Maurin</b><span class="role">Fondateur</span>
+          <p>Fils de restaurateur et moteur sur le terrain, Mathieu insuffle à chaque prestation ce supplément d'âme qui fait la différence.</p>
+        </div>
+        <div class="person rv">
+          <div class="ph"><img src="assets/yannick.jpg" alt="Yannick Bokini, co-fondateur" loading="lazy"></div>
+          <b>Yannick Bokini</b><span class="role">Co-fondateur</span>
+          <p>Passionné d'événementiel, fort de 8 ans d'expérience, Yannick est le pilier qui assure le succès de chaque événement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEVIS -->
+  <section id="devis" class="pad devis" aria-labelledby="h-devis">
+    <div class="wrap">
+      <div class="rub rv">
+        <h2 id="h-devis">Parlez-nous de votre événement</h2>
+        <p>Une date, un lieu, un nombre d'invités : on revient vers vous avec une proposition.</p>
+      </div>
+      <div class="devis-grid">
+        <div class="direct">
+          <a href="tel:+33679922789"><small>Téléphone</small><span>06 79 92 27 89</span></a>
+          <a href="mailto:mathieu@thefoodnews.fr"><small>E-mail</small><span>mathieu@thefoodnews.fr</span></a>
+          <a href="https://www.instagram.com/thefoodnews.fr/" target="_blank" rel="noopener"><small>Instagram</small><span>@thefoodnews.fr</span></a>
+          <p class="note">Plus la date approche, plus le camion se réserve vite en saison des festivals.</p>
+        </div>
+        <form id="form" novalidate>
+          <fieldset>
+            <legend>La formule</legend>
+            <div class="chips">
+              <label><input type="radio" name="formule" value="Food truck vintage" checked><span>Food truck vintage</span></label>
+              <label><input type="radio" name="formule" value="Traiteur événementiel"><span>Traiteur événementiel</span></label>
+              <label><input type="radio" name="formule" value="Location de food truck"><span>Location de food truck</span></label>
+              <label><input type="radio" name="formule" value="Je ne sais pas encore"><span>Je ne sais pas encore</span></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Le type d'événement</legend>
+            <div class="chips">
+              <label><input type="radio" name="type" value="Festival"><span>Festival</span></label>
+              <label><input type="radio" name="type" value="Salon"><span>Salon</span></label>
+              <label><input type="radio" name="type" value="Événement de marque"><span>Marque</span></label>
+              <label><input type="radio" name="type" value="Séminaire"><span>Séminaire</span></label>
+              <label><input type="radio" name="type" value="Tournage"><span>Tournage</span></label>
+              <label><input type="radio" name="type" value="Événement privé"><span>Privé</span></label>
+            </div>
+          </fieldset>
+          <div class="f"><label class="t" for="date">Date</label><input id="date" name="date" type="date"></div>
+          <div class="f"><label class="t" for="invites">Nombre d'invités</label><input id="invites" name="invites" type="number" min="1" inputmode="numeric" placeholder="Ex. 300"></div>
+          <div class="f full"><label class="t" for="lieu">Lieu</label><input id="lieu" name="lieu" placeholder="Ville ou nom du lieu"></div>
+          <div class="f"><label class="t" for="nom">Nom et société</label><input id="nom" name="nom" autocomplete="name" required></div>
+          <div class="f"><label class="t" for="tel">Téléphone</label><input id="tel" name="tel" type="tel" autocomplete="tel" required></div>
+          <div class="f full"><label class="t" for="msg">Votre projet</label><textarea id="msg" name="msg" placeholder="Ambiance, contraintes du lieu, idées de carte..."></textarea></div>
+          <div class="send">
+            <button class="btn" type="submit">Envoyer ma demande <span class="arr">→</span></button>
+            <small id="formnote">Votre messagerie s'ouvre avec la demande déjà rédigée.</small>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <span class="name">The Food News</span>
+      <img src="assets/logo-tfn-creme.png" alt="">
+    </div>
+    <div class="foot-bot">
+      <span>Traiteur événementiel · Food truck vintage · Location de food truck</span>
+      <nav><a href="tel:+33679922789">06 79 92 27 89</a><a href="mailto:mathieu@thefoodnews.fr">mathieu@thefoodnews.fr</a><a href="https://www.instagram.com/thefoodnews.fr/" target="_blank" rel="noopener">Instagram</a><a href="#">Mentions légales</a></nav>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar" aria-label="Actions rapides">
+  <a href="tel:+33679922789">Appeler</a>
+  <a class="p" href="#devis">Demander un devis</a>
+</div>
+
+<script>
+// Vidéo : bouton pause, et lecture seulement quand visible
+(function(){
+  var v=document.getElementById('hy'),b=document.getElementById('vctl');
+  if(!v)return;
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){v.removeAttribute('autoplay');v.pause();b.textContent='Lire';b.setAttribute('aria-pressed','true');}
+  b.addEventListener('click',function(){if(v.paused){v.play();b.textContent='Pause';b.setAttribute('aria-pressed','false');}else{v.pause();b.textContent='Lire';b.setAttribute('aria-pressed','true');}});
+})();
+// Apparition des blocs
+(function(){
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{rootMargin:'0px 0px -8% 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
+// Les liens des formules présélectionnent la formule dans le formulaire
+document.querySelectorAll('[data-svc]').forEach(function(a){
+  a.addEventListener('click',function(){var r=document.querySelector('input[name=formule][value="'+a.dataset.svc+'"]');if(r)r.checked=true;});
+});
+// Formulaire : prépare l'e-mail de demande de devis
+document.getElementById('form').addEventListener('submit',function(e){
+  e.preventDefault();
+  var f=e.target,g=function(n){var el=f.querySelector('[name='+n+']:checked')||f.elements[n];return el&&el.value?el.value.trim():'';};
+  var note=document.getElementById('formnote');
+  if(!g('nom')||!g('tel')){note.textContent='Merci d\'indiquer votre nom et votre téléphone.';(g('nom')?f.tel:f.nom).focus();return;}
+  var d=g('date');if(d){var p=d.split('-');d=p[2]+'/'+p[1]+'/'+p[0];}
+  var body=['Formule : '+g('formule'),'Événement : '+(g('type')||'à préciser'),'Date : '+(d||'à préciser'),'Lieu : '+(g('lieu')||'à préciser'),'Invités : '+(g('invites')||'à préciser'),'','Projet :',g('msg')||'-','','Contact : '+g('nom')+', '+g('tel')].join('\n');
+  location.href='mailto:mathieu@thefoodnews.fr?subject='+encodeURIComponent('Demande de devis · '+g('formule'))+'&body='+encodeURIComponent(body);
+  note.textContent='Votre messagerie s\'ouvre. Sinon, appelez le 06 79 92 27 89.';
+});
+</script>
+</body>
+</html>
